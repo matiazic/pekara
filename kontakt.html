@@ -1,34 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kontakt</title>
   </head>
   <body>
-    <div>
+    <div id="header">
       <h1>Kontakt</h1>
       <a href="index.html">Pocetna</a>
-    <a href="onama.html">O nama</a>
-      
+      <a href="onama.html">O nama</a>
     </div>
 
-    <hr>
-    <h3>Email:</h3><p>lazovicmatia12@gmail.com</p>  
-    <h3>Telefon:</h3><p>+381603661800</p>
+    <hr />
+    <div id="kontakt">
+      <h3>Email:</h3>
+      <p>lazovicmatia12@gmail.com</p>
+      <h3>Telefon:</h3>
+      <p>+381603661800</p>
+    </div>
+    <div id="poruka">
     <div>
       <h2>Posaljite nam poruku</h2>
-        Sva polja popunite ispravno da bi smo mogli da vas kontaktiramo nazad!
-      </div>
+      Sva polja popunite ispravno da bi smo mogli da vas kontaktiramo nazad!
+    </div>
     <form action="mailto:lazovicmatia12@gmail.com" method="get">
       <div>
-       
-   <h3>Naslov:</h3><input type="text" name="subject" id="" placeholder="Naslov" required>
-<h3>Email:</h3><input type="email" name="email" id="" placeholder="Vasa Email adresa" required>
-<h3>Poruka:</h3><textarea name="body" id="" placeholder="Vasa Poruka" cols="24" rows="6"></textarea><br>
-<input type="submit" value="POSALJI">
+        <h3>Naslov:</h3>
+        <input type="text" name="subject" id="" placeholder="Naslov" required />
+        <h3>Email:</h3>
+        <input
+          type="email"
+          name="email"
+          id=""
+          placeholder="Vasa Email adresa"
+          required
+        />
+        <h3>Poruka:</h3>
+        <textarea
+          name="body"
+          id=""
+          placeholder="Vasa Poruka"
+          cols="24"
+          rows="6"
+        ></textarea
+        ><br />
+        <input type="submit" value="POSALJI" />
       </div>
+    </div>
     </form>
-
   </body>
 </html>
