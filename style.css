@@ -150,6 +150,7 @@ audio {
   text-decoration: underline;
   font-weight: 500;
   transition: color 0.2s;
+  width:200px;
 }
 
 #recept:hover {
